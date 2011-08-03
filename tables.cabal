@@ -1,0 +1,10 @@
+Name:                tables
+Version:             0.1
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+Executable table
+  Main-is:           Main.hs
+  Build-Depends:     base >= 3 && < 5
+  Build-Depends:     mtl >= 1.1.0.2
+  Build-Depends:     containers >= 0.3.0.0
+  Build-Depends:     array >= 0.3.0.1
